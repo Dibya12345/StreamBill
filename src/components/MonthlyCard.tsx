@@ -10,7 +10,7 @@ const MonthlyCard = () => {
       }}
     >
       <div className="flex flex-col items-start justify-center gap-1">
-        <p className="text-text-light-secondary dark:text-text-dark-secondary text-base">
+        <p className="text-text-light-secondary dark:text-text-dark-secondary text-base font-typewcond font-bold">
           Total Monthly Cost
         </p>
 

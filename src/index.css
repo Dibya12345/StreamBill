@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+/* Typewriter Condensed Font */
+@font-face {
+  font-family: "typewcond";
+  src: url("./fonts/typewcond_regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "typewcond";
+  src: url("./fonts/typewcond_demi.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "typewcond";
+  src: url("./fonts/typewcond_bold.otf") format("opentype");
+  font-weight: 700;
+}
+
+/* Tailwind Theme */
+@theme {
+  --font-typewcond: "typewcond", sans-serif;
+}
+
