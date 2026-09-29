@@ -7,10 +7,9 @@ function App() {
       <section className="m-0 p-0 w-[60%] h-screen">
         <header className="typewcond font-bold text-2xl mt-10">Stream Bills</header>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          <div className="h-32 bg-blue-500">Box</div>
-          <div className="h-32 bg-blue-500">Box</div>
-
-          <div className="h-32 bg-blue-500">Box</div>
+          <MonthlyCard />
+          <MonthlyCard />
+          <MonthlyCard />
         </div>
       </section>
     </main>
